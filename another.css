@@ -178,12 +178,16 @@ body {
   flex: 1;
 
 }
+.right-div,.right-div{
+flex:1;
+}
 
 .right-section {
   background-color: white;
-  margin-right: 38px;
+
   width: 792px;
   height: 883px;
+  margin-left: 38px;
 
 
 }
