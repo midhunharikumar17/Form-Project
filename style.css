@@ -10,7 +10,10 @@ body {
   color: rgba(43, 54, 116, 1);
   width: auto;
 }
-
+.content-container{
+  width: 1920px;
+  height: 1080px;
+}
 .heading {
   font-family: DM Sans;
   font-weight: 700;

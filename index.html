@@ -18,275 +18,280 @@
 </head>
 
 <body>
-  <div class="section-container">
-    <div class="left-div">
+  <div class="content-container">
+    <div class="section-container">
+      <div class="left-div">
 
 
-      <h1 class="heading">Basic Details</h1>
-      <div class="left-section">
+        <h1 class="heading">Basic Details</h1>
+        <div class="left-section">
 
 
 
 
-        <div class="upload-image-container">
-          <div class="upload-box">
-            <input type="file" id="fileUpload" accept="image/png, image/jpeg" hidden>
+          <div class="upload-image-container">
+            <div class="upload-box">
+              <input type="file" id="fileUpload" accept="image/png, image/jpeg" hidden>
 
-            <label for="fileUpload" class="upload-label">
-              <div class="mb-2">
-                <i class="bi bi-upload"></i>
-              </div>
-              <div class="fw-semibold" style="color:#4A00FF;">Upload Image</div>
-              <div class="upload-text-muted">
-                <small class="text-muted d-block">PNG, JPG files are allowed</small>
-              </div>
-            </label>
-          </div>
-        </div>
-
-        <div class="label-threecontainers">
-          <div class="label-salutation">
-            <label for="exampleFormControlInput1" class="input-name">
-              Salutation<span class="star">*</span>
-            </label>
-            <select class="form-select">
-              <option selected> select</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </select>
-          </div>
-          <div class="label-firstname">
-            <label for="exampleFormControlInput1" class="input-name">
-              First Name<span class="star">*</span>
-            </label>
-            <div class="input-firstname-container">
-              <input type="email" class="input-firstname" id="exampleFormControlInput1" placeholder="enter firstname">
-            </div>
-          </div>
-          <div class="label-lastname">
-            <label for="exampleFormControlInput1" class="input-name">
-              Last Name<span class="star">*</span>
-            </label>
-            <div class="input-lastname-container">
-              <input type="email" class="input-lastname" id="exampleFormControlInput1" placeholder="enter lastname">
-            </div>
-          </div>
-        </div>
-
-        <div class="label-containers">
-          <div class="lable-dob">
-            <label for="exampleFormControlInput1" class="input-name">
-              Date of Birth<span class="star">*</span>
-            </label>
-            <div class="input-dob-container">
-              <input type="email" class="input-dob" id="exampleFormControlInput1" placeholder="enter DOB">
-
-            </div>
-          </div>
-          <div class="label-gender">
-            <label for="exampleFormControlInput1" class="input-name">
-              Gender<span class="star">*</span>
-            </label>
-            <div class="radio-container">
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
-                <label class="form-check-label" for="radioDefault1">
-                  Male
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" checked>
-                <label class="form-check-label" for="radioDefault2">
-                  Female
-                </label>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="label-containers">
-          <div class="lable-email">
-            <label for="exampleFormControlInput1" class="input-name">
-              Email Address<span class="star">*</span>
-            </label>
-            <div class="input-country-container">
-              <input type="email" class="input-email" id="exampleFormControlInput1" placeholder="enter email">
-            </div>
-          </div>
-          <div class="label-state">
-            <label for="exampleFormControlInput1" class="input-name">
-              Mobile Number<span class="star">*</span>
-            </label>
-            <div class="input-state-container">
-              <input type="email" class="input-mobile" id="exampleFormControlInput1" placeholder="enter mobile number">
-            </div>
-          </div>
-        </div>
-
-        <div class="label-address">
-          <label for="exampleFormControlInput1" class="input-name">
-            Address<span class="star">*</span>
-          </label>
-          <div class="input-address-container">
-            <input type="email" class="input-address" id="exampleFormControlInput1" placeholder="enter address">
-          </div>
-        </div>
-
-        <div class="label-containers">
-          <div class="lable-country">
-            <label for="exampleFormControlInput1" class="input-name">
-              Country<span class="star">*</span>
-            </label>
-            <div class="input-country-container">
-              <input type="email" class="input-country" id="exampleFormControlInput1" placeholder="enter country">
-            </div>
-          </div>
-          <div class="label-state">
-            <label for="exampleFormControlInput1" class="input-name">
-              State<span class="star">*</span>
-            </label>
-            <div class="input-state-container">
-              <input type="email" class="input-state" id="exampleFormControlInput1" placeholder="enter state">
-            </div>
-          </div>
-        </div>
-
-        <div class="label-containers">
-          <div class="lable-city">
-            <label for="exampleFormControlInput1" class="input-name">
-              City<span class="star">*</span>
-            </label>
-            <div class="input-city-container">
-              <input type="email" class="input-city" id="exampleFormControlInput1" placeholder="enter city">
-            </div>
-          </div>
-          <div class="label-pinzip">
-            <label for="exampleFormControlInput1" class="input-name">
-              Pin/Zip<span class="star">*</span>
-            </label>
-            <div class="input-pinzip-container">
-              <input type="email" class="input-pinzip" id="exampleFormControlInput1" placeholder="enter pin/zip">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="right-div">
-
-
-      <h1 class="heading">Advanced Details</h1>
-      <div class="right-section">
-
-
-        <div class="alert alert-warning" role="alert">
-          <span class="alert-heading"> Sample warning messages-alert!</span>
-          <p class="alert-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed fermentum felis. Aliquam erat volutpat.
-            Donec faucibus mauris vel nibh sodales feugiat. Donec suscipit felis vitae orci porttitor congue.
-          </p>
-        </div>
-
-
-        <div class="label-containers">
-          <div class="height-container">
-            <div class="label-height">
-              <label for="exampleFormControlInput1" class="input-name">
-                Height<span class="star">*</span>
+              <label for="fileUpload" class="upload-label">
+                <div class="mb-2">
+                  <i class="bi bi-upload"></i>
+                </div>
+                <div class="fw-semibold" style="color:#4A00FF;">Upload Image</div>
+                <div class="upload-text-muted">
+                  <small class="text-muted d-block">PNG, JPG files are allowed</small>
+                </div>
               </label>
-              <label class="input-weight" for="customRange1"></label>
-              <input type="range" class="form-range" id="customRange1">
-            </div>
-            <div class="height-indicator">
-              163cm
             </div>
           </div>
-          <div class="weight-container">
-            <div class="label-weight">
+
+          <div class="label-threecontainers">
+            <div class="label-salutation">
               <label for="exampleFormControlInput1" class="input-name">
-                Weight<span class="star">*</span>
+                Salutation<span class="star">*</span>
               </label>
-              <label class="input-weight" for="customRange1"></label>
-              <input type="range" class="form-range" id="customRange1">
+              <select class="form-select">
+                <option selected> select</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
             </div>
-            <div class="weight-indicator">
-              63kg
+            <div class="label-firstname">
+              <label for="exampleFormControlInput1" class="input-name">
+                First Name<span class="star">*</span>
+              </label>
+              <div class="input-firstname-container">
+                <input type="email" class="input-firstname" id="exampleFormControlInput1" placeholder="enter firstname">
+              </div>
+            </div>
+            <div class="label-lastname">
+              <label for="exampleFormControlInput1" class="input-name">
+                Last Name<span class="star">*</span>
+              </label>
+              <div class="input-lastname-container">
+                <input type="email" class="input-lastname" id="exampleFormControlInput1" placeholder="enter lastname">
+              </div>
             </div>
           </div>
-        </div>
 
+          <div class="label-containers">
+            <div class="lable-dob">
+              <label for="exampleFormControlInput1" class="input-name">
+                Date of Birth<span class="star">*</span>
+              </label>
+              <div class="input-dob-container">
+                <input type="email" class="input-dob" id="exampleFormControlInput1" placeholder="enter DOB">
 
-        <div class="label-containers">
-          <div class="lable-email">
+              </div>
+            </div>
+            <div class="label-gender">
+              <label for="exampleFormControlInput1" class="input-name">
+                Gender<span class="star">*</span>
+              </label>
+              <div class="radio-container">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+                  <label class="form-check-label" for="radioDefault1">
+                    Male
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" checked>
+                  <label class="form-check-label" for="radioDefault2">
+                    Female
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="label-containers">
+            <div class="lable-email">
+              <label for="exampleFormControlInput1" class="input-name">
+                Email Address<span class="star">*</span>
+              </label>
+              <div class="input-country-container">
+                <input type="email" class="input-email" id="exampleFormControlInput1" placeholder="enter email">
+              </div>
+            </div>
+            <div class="label-state">
+              <label for="exampleFormControlInput1" class="input-name">
+                Mobile Number<span class="star">*</span>
+              </label>
+              <div class="input-state-container">
+                <input type="email" class="input-mobile" id="exampleFormControlInput1"
+                  placeholder="enter mobile number">
+              </div>
+            </div>
+          </div>
+
+          <div class="label-address">
             <label for="exampleFormControlInput1" class="input-name">
-              Choose Colour<span class="star">*</span>
+              Address<span class="star">*</span>
             </label>
-            <div>
-              <input type="color" class="form-control form-control-color" id="colorInput" value="#563d7c"
-                title="Choose your color">
-
+            <div class="input-address-container">
+              <input type="email" class="input-address" id="exampleFormControlInput1" placeholder="enter address">
             </div>
           </div>
-          <div class="label-state">
 
-            <label for="exampleFormControlInput1" class="input-name">
-              Choose Template<span class="star">*</span>
-            </label>
-            <div class="choose-temp-check">
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                <label class="form-check-label" for="inlineCheckbox1">Template 1</label>
+          <div class="label-containers">
+            <div class="lable-country">
+              <label for="exampleFormControlInput1" class="input-name">
+                Country<span class="star">*</span>
+              </label>
+              <div class="input-country-container">
+                <input type="email" class="input-country" id="exampleFormControlInput1" placeholder="enter country">
               </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                <label class="form-check-label" for="inlineCheckbox2">Template 2</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                <label class="form-check-label" for="inlineCheckbox3">Template 3</label>
+            </div>
+            <div class="label-state">
+              <label for="exampleFormControlInput1" class="input-name">
+                State<span class="star">*</span>
+              </label>
+              <div class="input-state-container">
+                <input type="email" class="input-state" id="exampleFormControlInput1" placeholder="enter state">
               </div>
             </div>
           </div>
-        </div>
 
-
-        <div class="label-qualifications">
-          <label for="exampleFormControlInput1" class="input-name">
-            Qualifications<span class="star">*</span>
-          </label>
-          <div class="input-qualification-container">
-            <input type="email" class="input-address" id="exampleFormControlInput1" placeholder="enter qualifications">
+          <div class="label-containers">
+            <div class="lable-city">
+              <label for="exampleFormControlInput1" class="input-name">
+                City<span class="star">*</span>
+              </label>
+              <div class="input-city-container">
+                <input type="email" class="input-city" id="exampleFormControlInput1" placeholder="enter city">
+              </div>
+            </div>
+            <div class="label-pinzip">
+              <label for="exampleFormControlInput1" class="input-name">
+                Pin/Zip<span class="star">*</span>
+              </label>
+              <div class="input-pinzip-container">
+                <input type="email" class="input-pinzip" id="exampleFormControlInput1" placeholder="enter pin/zip">
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="label-aboutyourself">
-          <label for="exampleFormControlInput1" class="input-name">
-            About Your Self<span class="star">*</span>
-          </label>
-          <div class="input-aboutyourself-container">
-            <input type="email" class="input-aboutyourself" id="exampleFormControlInput1" placeholder="enter here..">
-          </div>
-        </div>
-
-        <div class="terms-and-conditions">
-          <input class="form-check-input" type="checkbox" value="" id="checkChecked" checked>
-          <label class="form-check-label" for="checkChecked">
-            I Accept Terms and Conditions
-          </label>
         </div>
       </div>
+
+
+      <div class="right-div">
+
+
+        <h1 class="heading">Advanced Details</h1>
+        <div class="right-section">
+
+
+          <div class="alert alert-warning" role="alert">
+            <span class="alert-heading"> Sample warning messages-alert!</span>
+            <p class="alert-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed fermentum felis. Aliquam erat
+              volutpat.
+              Donec faucibus mauris vel nibh sodales feugiat. Donec suscipit felis vitae orci porttitor congue.
+            </p>
+          </div>
+
+
+          <div class="label-containers">
+            <div class="height-container">
+              <div class="label-height">
+                <label for="exampleFormControlInput1" class="input-name">
+                  Height<span class="star">*</span>
+                </label>
+                <label class="input-weight" for="customRange1"></label>
+                <input type="range" class="form-range" id="customRange1">
+              </div>
+              <div class="height-indicator">
+                163cm
+              </div>
+            </div>
+            <div class="weight-container">
+              <div class="label-weight">
+                <label for="exampleFormControlInput1" class="input-name">
+                  Weight<span class="star">*</span>
+                </label>
+                <label class="input-weight" for="customRange1"></label>
+                <input type="range" class="form-range" id="customRange1">
+              </div>
+              <div class="weight-indicator">
+                63kg
+              </div>
+            </div>
+          </div>
+
+
+          <div class="label-containers">
+            <div class="lable-email">
+              <label for="exampleFormControlInput1" class="input-name">
+                Choose Colour<span class="star">*</span>
+              </label>
+              <div>
+                <input type="color" class="form-control form-control-color" id="colorInput" value="#563d7c"
+                  title="Choose your color">
+
+              </div>
+            </div>
+            <div class="label-state">
+
+              <label for="exampleFormControlInput1" class="input-name">
+                Choose Template<span class="star">*</span>
+              </label>
+              <div class="choose-temp-check">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                  <label class="form-check-label" for="inlineCheckbox1">Template 1</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                  <label class="form-check-label" for="inlineCheckbox2">Template 2</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                  <label class="form-check-label" for="inlineCheckbox3">Template 3</label>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="label-qualifications">
+            <label for="exampleFormControlInput1" class="input-name">
+              Qualifications<span class="star">*</span>
+            </label>
+            <div class="input-qualification-container">
+              <input type="email" class="input-address" id="exampleFormControlInput1"
+                placeholder="enter qualifications">
+            </div>
+          </div>
+          <div class="label-aboutyourself">
+            <label for="exampleFormControlInput1" class="input-name">
+              About Your Self<span class="star">*</span>
+            </label>
+            <div class="input-aboutyourself-container">
+              <input type="email" class="input-aboutyourself" id="exampleFormControlInput1" placeholder="enter here..">
+            </div>
+          </div>
+
+          <div class="terms-and-conditions">
+            <input class="form-check-input" type="checkbox" value="" id="checkChecked" checked>
+            <label class="form-check-label" for="checkChecked">
+              I Accept Terms and Conditions
+            </label>
+          </div>
+        </div>
+      </div>
+
+
     </div>
-
-
-  </div>
-  <div class="footer">
-    <div class="buttons">
-      <div>
-        <button type="button" class="btn btn-secondary">Cancel</button>
-      </div>
-      <div>
-        <button type="submit" class="btn btn-primary">Save Changes</button>
+    <div class="footer">
+      <div class="buttons">
+        <div>
+          <button type="button" class="btn btn-secondary">Cancel</button>
+        </div>
+        <div>
+          <button type="submit" class="btn btn-primary">Save Changes</button>
+        </div>
       </div>
     </div>
   </div>
